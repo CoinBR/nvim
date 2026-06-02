@@ -27,6 +27,9 @@ o.splitbelow = true
 -- use the system clipboard
 vim.opt.clipboard = "unnamedplus"
 
+--- side by side diff
+vim.opt.diffopt:append("vertical")
+
 
 -- etc
 o.cursorline = true -- highlight the current cursor line
